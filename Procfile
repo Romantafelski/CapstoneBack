@@ -1,1 +1,1 @@
-web: gunicorn tattoos_api.wsgi.application
+web: gunicorn tattoos_api.inked_api.wsgi.application
