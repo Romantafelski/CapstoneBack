@@ -1,0 +1,1 @@
+web: gunicorn tattoos_api.wsgi
