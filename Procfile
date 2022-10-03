@@ -1,1 +1,1 @@
-web: gunicorn tattoos_api.wsgi
+web: gunicorn --pythonpath tattoos_api tattoos_api.wsgi
