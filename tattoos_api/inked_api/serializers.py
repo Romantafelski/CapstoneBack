@@ -1,6 +1,5 @@
 from rest_framework import serializers
-from .models import Tattoo
-from .models import Admin   
+from .models import Tattoo   
 
 class TattooSerializer(serializers.ModelSerializer):
     class Meta:
