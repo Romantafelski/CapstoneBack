@@ -5,4 +5,3 @@ from django.contrib import admin
 from .models import Tattoo
 from .models import Admin
 admin.site.register(Tattoo)
-admin.siteregister(Admin)

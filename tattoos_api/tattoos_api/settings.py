@@ -91,25 +91,11 @@ DATABASES = {
         'USER': '',
         'PASSWORD': '',
         'HOST': 'localhost'
-    }, 
-    'admin': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tattooAdmin',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': 'localhost'
     }
 }
 
 db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env) 
-
-PASSWORD_HASHERS = [
-    'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
-    'django.contrib.auth.hashers.PBKDF2PasswordHasher',
-    'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
-    'django.contrib.auth.hashers.Argon2PasswordHasher',
-]
 
 
 # Password validation
