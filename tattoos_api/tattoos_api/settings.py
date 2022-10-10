@@ -33,7 +33,6 @@ ALLOWED_HOSTS = ['localhost', 'evening-taiga-64655.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'bcyrpt',
     'corsheaders',
     'rest_framework',
     'inked_api',
