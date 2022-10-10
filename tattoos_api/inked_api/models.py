@@ -8,6 +8,3 @@ class Tattoo(models.Model):
     description = models.CharField(max_length=999)
     
     
-class Admin(models.Model): 
-    user = models.CharField(max_length=30)
-    password = models.CharField(max_length=55)

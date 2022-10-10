@@ -7,8 +7,3 @@ class TattooSerializer(serializers.ModelSerializer):
         model = Tattoo
         fields = ('id', 'image', 'artist', 'description',)
         
-        
-class AdminSerializer   (serilaizers.ModelSerializer):
-    class Meta: 
-        model = Admin   
-        fields = ('id', 'username', 'password',)
